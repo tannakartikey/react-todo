@@ -14,10 +14,6 @@
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
 .App-intro {
   font-size: large;
 }
@@ -45,6 +41,19 @@ li {
   list-style-type: none;
 }
 
+li span.delete-item {
+  visibility: hidden;
+}
+
+span.delete-item a {
+  text-decoration: none;
+  color:red;
+}
+
+li:hover span.delete-item {
+  visibility: visible;
+}
+
 .error {
-  color: red
+  color:red;
 }
