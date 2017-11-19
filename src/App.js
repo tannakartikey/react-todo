@@ -24,7 +24,7 @@ class App extends Component {
 
   showTempMessage = (msg) => {
     this.setState({message: msg})
-    setTimeout(() => this.setState({messgae: ''}), 2)
+    setTimeout(() => this.setState({message: ''}), 2500)
   }
 
   handleRemove = (id, e) => {
